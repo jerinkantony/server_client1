@@ -3,8 +3,8 @@ import time
 from PIL import Image
 
 
-url = 'http://192.168.38.8:5000/im_size' #ML2
-#url = 'http://127.0.0.1:5000/im_size'   #Localhost
+#url = 'http://192.168.38.8:5000/im_size' #ML2
+url = 'http://127.0.0.1:5000/im_size'   #Localhost
 
 my_img = {'image': open('0.jpg', 'rb')}
 
