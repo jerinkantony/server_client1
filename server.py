@@ -16,6 +16,9 @@ def process_image():
 
     payload = request.form.to_dict()
     print('payload:',payload)
+    
+    #time.sleep(2) #to mimick inference
+    
     print('Imread+payload time:',time.time()-start2)
 
     #my_img = {'image': open('1.jpg', 'rb')}
